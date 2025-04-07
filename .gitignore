@@ -66,3 +66,4 @@ core.*
 
 # Gazebo specific
 *.world.sdf
+/src/my_rfid_demo/cmake-build-debug/
