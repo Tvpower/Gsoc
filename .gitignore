@@ -1,0 +1,68 @@
+# Build directories
+build/
+src/build/
+devel/
+install/
+log/
+logs/
+bin/
+lib/
+msg_gen/
+srv_gen/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+catkin/
+catkin_generated/
+gtest/
+
+# Compiled files
+*.o
+*.so
+*.a
+*.la
+*.lo
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Generated message files
+*__*.py
+*.pb.h
+*.pb.cc
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ROS specific
+.catkin_workspace
+.catkin_tools/
+CATKIN_IGNORE
+
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+# Logs
+*.log
+*.bag
+
+# Other common files to ignore
+core.*
+
+# Gazebo specific
+*.world.sdf
