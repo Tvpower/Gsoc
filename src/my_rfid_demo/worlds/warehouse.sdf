@@ -96,7 +96,7 @@
     </include>
 
     <include>
-      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard Box</uri>
+      <uri>https://fuel.gazebosim.org/1.0/german/models/Cardboard Box</uri>
       <name>box1</name>
       <pose>1 1 0.5 0 0 0</pose>
     </include>
@@ -108,7 +108,7 @@
     </include>
 
     <include>
-      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard Box</uri>
+      <uri>https://fuel.gazebosim.org/1.0/german/models/Cardboard Box</uri>
       <name>box2</name>
       <pose>-1 1 0.5 0 0 0</pose>
     </include>

@@ -49,7 +49,7 @@ void DummySensor::Update(
 
     //limit publishing time
     auto current_time = _info.simTime.count();
-    if (current_time - this->last_publish_time < 9000000000000) {
+    if (current_time - this->last_publish_time < 10000000000) {
         return;
     }
     this->last_publish_time = current_time;
@@ -62,6 +62,7 @@ void DummySensor::Update(
     //simulate detection by checking nearby models
     if (current_time % 5000000000 < 2000000000) {
         tags.emplace_back("pallet1:RFID:12345");
+
     } else if (current_time % 7000000000 < 3000000000) {
         tags.emplace_back("box2:RFID:67890");
     }
@@ -82,6 +83,8 @@ void DummySensor::Update(
     //publish it!
     this->publisher.Publish(msg);
 }
+
+
 
 GZ_ADD_PLUGIN(
     DummySensor,
