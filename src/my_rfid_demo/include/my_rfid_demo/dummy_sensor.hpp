@@ -26,6 +26,9 @@ namespace my_rfid_demo {
     private: gz::transport::Node node;
     private: std::string topic_name;
     private: gz::transport::Node::Publisher publisher;
+    private: int last_publish_time;
+    private:  gz::sim::Entity entity;
+
     };
 
 }

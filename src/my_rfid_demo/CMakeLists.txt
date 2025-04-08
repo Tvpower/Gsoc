@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(ros_gz_sim REQUIRED)
 find_package(ros_gz_bridge REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(xacro REQUIRED)
 
 #Gazebo Harmonic plugins
 find_package(gz-sim8 REQUIRED)
